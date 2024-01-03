@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&family=Montserrat:wght@100&family=Oswald:wght@500&family=Poppins:wght@400;600;800&family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --colors: 	#42c501 */
+
+/* navbar */
+
+#navbar{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#navbar span{
+    color: 	#42c501;
+}
+
+.navbar-buttons{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #42c501;
+    width: 100px;
+    font-size: 18px;
+}
+
+.nav-link{
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid #42c501;
+}
+
+.navbar-toggler-icon{
+    background-color: #42c501;
+    font-size: 16px;
+}
+
+.navbar-toggler{
+    background-color: #42c501;
+}
+
+
+/* banner-slideshow */
+
+#slide-img{
+    background-size: 100% auto;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-item {
+    position: relative;
+  }
+  
+  .carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,40%);
+    z-index: 2;
+    color: #fff;
+    width: 80%;
+  }
+
+.carousel-caption h5{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.carousel-inner span{
+    color: #42c501;
+    
+}
+  
+.carousel-caption p{
+    font-size: 20px;
+}
+
+
+/* about section */
+
+
+.about_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.about-img{
+    display: flex;
+    justify-content: center;
+}
+
+.about-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.about-p h2{
+    color: #42c501;
+}
+
+/* product section */
+
+#product{
+    background-color: azure;
+    padding: 40px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 130px;
+}
+
+.card{
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#product h1{
+    margin-bottom: 20px;
+    color: #42c501;
+}
+
+.card_button{
+    background-color: #42c501;
+    margin-top: 10px;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+
+
+/* footer */
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+
+#name-input{
+    box-shadow: none;
+    width: 100%;
+    height: 30px;
+}
+
+#contact label{
+    color: #42c501;
+    margin-right: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#submit_btn{
+    border: none;
+    padding: 4px 10px;
+    margin-top: 15px;
+    background-color: #42c501;
+    border-radius: 3px;
+}
+
+#contact h3{
+    color: #42c501;
+}
+
+.ul_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ul_div ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon_footer{
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+    background-color: #42c501;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+
+
+#icon_i{
+    color: white;
+}
+
+.qrcode a{
+    color: white;
+}
+
+.qrcode img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.thirdfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    background-color: #42c501;
+}
+
+.copyright p{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+    
+    .carousel-caption p{
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+  }
